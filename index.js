@@ -9,3 +9,7 @@ function bg() {
   }
   document.getElementsByTagName("header")[0].style.backgroundColor = header;
 }
+
+function switchexp(){
+    
+}
