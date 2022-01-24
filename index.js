@@ -11,11 +11,11 @@ function bg() {
 }
 
 function switchexps() {
-  document.getElementById("school").style.display = "inline";
+  document.getElementById("school").style.display = "grid";
   document.getElementById("work").style.display = "none";
 }
 
 function switchexpw() {
-  document.getElementById("work").style.display = "inline";
+  document.getElementById("work").style.display = "grid";
   document.getElementById("school").style.display = "none";
 }
