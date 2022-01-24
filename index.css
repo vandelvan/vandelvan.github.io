@@ -28,12 +28,6 @@ body {
   line-height: 2;
 }
 
-.nocard {
-  margin: 3%;
-  padding: 3%;
-  line-height: 2;
-}
-
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -109,4 +103,10 @@ a {
   border: 5px;
   border-color: var(--color2);
   border-style: solid;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1%;
 }
