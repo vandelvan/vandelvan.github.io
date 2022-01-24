@@ -10,6 +10,12 @@ function bg() {
   document.getElementsByTagName("header")[0].style.backgroundColor = header;
 }
 
-function switchexp(){
-    
+function switchexps() {
+  document.getElementById("school").style.display = "inline";
+  document.getElementById("work").style.display = "none";
+}
+
+function switchexpw() {
+  document.getElementById("work").style.display = "inline";
+  document.getElementById("school").style.display = "none";
 }

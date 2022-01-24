@@ -63,7 +63,6 @@ footer {
   /*Dale un color de fondo a un elemento div*/
   background-color: black;
   padding: 3%;
-  padding-left: 45%;
 }
 
 .social {
@@ -74,6 +73,8 @@ footer {
 a {
   /*Cambiar el color del texto*/
   color: black;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .info {
@@ -82,16 +83,30 @@ a {
   line-height: 3;
 }
 
-.references{
-    column-count: 2;
-    margin-left: 20%;
+.references {
+  column-count: 2;
 }
 
-.links{
-    text-align: end;
+.links {
+  text-align: end;
 }
 
-.list{
-    column-count: 3;
-    padding: 1%;
+.list {
+  column-count: 3;
+  padding: 1%;
+}
+
+#school {
+  display: none;
+}
+
+.expic {
+  border-radius: 15px;
+  /*Modifique tamaño de imágenes*/
+  width: 180px;
+  height: 180px;
+  /*Agregar bordes alrededor de sus elementos*/
+  border: 5px;
+  border-color: var(--color2);
+  border-style: solid;
 }
