@@ -28,8 +28,17 @@ body {
   line-height: 2;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .pic {
-  border-radius: 15px;
+  /*Utilizar la herencia de estilos*/
+  border-radius: inherit;
+  /*Modifique tamaño de imágenes*/
+  width: 392px;
+  height: 528px;
   /*Agregar bordes alrededor de sus elementos*/
   border: 5px;
   border-color: var(--color1);
@@ -37,6 +46,10 @@ body {
 }
 
 header {
+  column-count: 2;
+  position: sticky;
+  top: 0;
+  padding: 2%;
   background-color: #c3e0e580;
 }
 
@@ -64,8 +77,17 @@ a {
   line-height: 3;
 }
 
+.references {
+  column-count: 2;
+}
+
 .links {
   text-align: end;
+}
+
+.list {
+  column-count: 3;
+  padding: 1%;
 }
 
 #school {
@@ -83,8 +105,8 @@ a {
   border-style: solid;
 }
 
-
-.list-group-item{
-  background: none;
-  border: none;
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1%;
 }
