@@ -22,7 +22,7 @@
       href="images/favicon_io/favicon-16x16.png"
     />
     <link rel="manifest" href="images/favicon_io/site.webmanifest" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Ivan Orozco</title>
   </head>
   <body>
@@ -55,12 +55,9 @@
                   <div
                     class="flex items-center justify-between w-full md:w-auto"
                   >
-                    <a href="#">
-                      <span class="sr-only">Home</span>
-                      🌌
-                    </a>
                     <div class="-mr-2 flex items-center md:hidden">
                       <button
+                      onclick="openmenu()"
                         type="button"
                         class="bg-neutral-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500"
                         aria-expanded="false"
@@ -90,35 +87,38 @@
                   <a
                     href="#skills"
                     class="font-medium text-gray-500 hover:text-gray-900"
+                    id="skillstxt"
                     >Skills</a
                   >
 
                   <a
                     href="#work"
                     class="font-medium text-gray-500 hover:text-gray-900"
+                    id="experiencetxt"
                     >Experience</a
                   >
 
                   <a
                     href="#projects"
                     class="font-medium text-gray-500 hover:text-gray-900"
+                    id="projectstxt"
                     >Projects</a
                   >
 
-                  <a
-                    href="#"
+                  <button
+                    onclick="spanish()"
                     class="font-medium text-gray-500 hover:text-gray-900"
-                    >🇪🇸</a
+                    >[ES]</button
                   >
-                  <a
-                    href="#"
+                  <button
+                    onclick="english()"
                     class="font-medium text-gray-500 hover:text-gray-900"
-                    >🏴󠁧󠁢󠁥󠁮󠁧󠁿</a
+                    >[EN]</button
                   >
-                  <a
-                    href="#"
+                  <button
+                    onclick="french()"
                     class="font-medium text-gray-500 hover:text-gray-900"
-                    >🇫🇷</a
+                    >[FR]</button
                   >
                 </div>
               </nav>
@@ -135,15 +135,16 @@
             To: "opacity-0 scale-95"
         -->
             <div
+            id="menusm"
               class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
             >
               <div
                 class="rounded-lg shadow-md bg-neutral-900 ring-1 ring-white ring-opacity-5 overflow-hidden"
               >
                 <div class="px-5 pt-4 flex items-center justify-between">
-                  <div>🌌</div>
                   <div class="-mr-2">
                     <button
+                      onclick="closemenu()"
                       type="button"
                       class="bg-neutral-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500"
                     >
@@ -171,35 +172,38 @@
                   <a
                     href="#skills"
                     class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                    id="skillstxt"
                     >Skills</a
                   >
 
                   <a
                     href="#work"
                     class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                    id="experiencetxt"
                     >Experience</a
                   >
 
                   <a
                     href="#projects"
                     class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                    id="projectstxt"
                     >Projects</a
                   >
 
-                  <a
-                    href="#"
+                  <button
+                    onclick="spanish()"
                     class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                    >🇪🇸</a
+                    >Español</button
                   >
-                  <a
-                    href="#"
+                  <button
+                    onclick="english()"
                     class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                    >🏴󠁧󠁢󠁥󠁮󠁧󠁿</a
+                    >English</button
                   >
-                  <a
-                    href="#"
+                  <button
+                    onclick="french()"
                     class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                    >🇫🇷</a
+                    >Français</button
                   >
                 </div>
               </div>
@@ -214,22 +218,21 @@
                 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
               >
                 <span class="block text-gray-600">Jose Ivan Orozco Torrez</span>
-                <span class="block text-gray-700"
-                  >Junior Developer, Student
+                <span class="block text-gray-700" id="title"
+                  >
                 </span>
               </h1>
               <p
                 class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                id="intro"
               >
-                I'm a Mexican 🇲🇽 22-year-old junior full-stack software
-                developer and a computer engineering student with 3+ years of
-                professional experience in web and mobile development.
               </p>
               <div
                 class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
               >
                 <div class="rounded-md shadow">
                   <a
+                    id="knowme"
                     href="#skills"
                     class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 md:py-4 md:text-lg md:px-10"
                   >
@@ -238,6 +241,7 @@
                 </div>
                 <div class="mt-3 sm:mt-0 sm:ml-3">
                   <a
+                    id="contactbtn"
                     href="#contact"
                     class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900 md:py-4 md:text-lg md:px-10"
                   >
@@ -263,16 +267,18 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2
+          id="skillstitle"
             class="text-base text-gray-600 font-semibold tracking-wide uppercase"
           >
             Skills
           </h2>
           <p
+          id="skillssub"
             class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-4xl"
           >
             Technologies & Tools
           </p>
-          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto" id="skillsdesc">
             During my career, I've used multiple tools, languages, and frameworks for different purposes, such as web, mobile, desktop, and videogame development, automating processes, or administrating systems, such as:
           </p>
         </div>
@@ -867,16 +873,18 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2
+          id="experiencetitle"
             class="text-base text-gray-600 font-semibold tracking-wide uppercase"
           >
             Experience
           </h2>
           <p
+          id="experiencesub"
             class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-4xl"
           >
             Get to know where I've worked.
           </p>
-          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto" id="experiencedesc">
             I've been part of some different big and small teams where I've learned a lot of new things.
           </p>
         </div>
@@ -914,7 +922,7 @@
                   2020-Present
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">I started a team of students and freelancers to create miscellaneous solutions for different clients around the world and to help them kickstart their projects and ideas.</dd>
+              <dd class="mt-2 ml-16 text-base text-gray-500" id="ramendesc">I started a team of students and freelancers to create miscellaneous solutions for different clients around the world and to help them kickstart their projects and ideas.</dd>
             </div>
 
             <div class="relative">
@@ -946,7 +954,7 @@
                   2021-2022
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">I developed e-commerce solutions for clients of different fields using WordPress and Woocommerce, I also took part in the development of Android and iOS Apps using Flutter.</dd>
+              <dd class="mt-2 ml-16 text-base text-gray-500" id="twindesc">I developed e-commerce solutions for clients of different fields using WordPress and Woocommerce, I also took part in the development of Android and iOS Apps using Flutter.</dd>
             </div>
 
             <div class="relative">
@@ -978,7 +986,7 @@
                   2020-2021
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">SUNAE was an association formed by students all around México to help high school seniors and college juniors with different careers most basic skills such as coding and math for engineering students.</dd>
+              <dd class="mt-2 ml-16 text-base text-gray-500" id="sunaedesc">SUNAE was an association formed by students all around México to help high school seniors and college juniors with different careers most basic skills such as coding and math for engineering students.</dd>
             </div>
 
             <div class="relative">
@@ -1010,7 +1018,7 @@
                   2019-2020
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">Worked on various cloud-based solutions for different businesses such as a POS (Appministra), an accountability solution (Acontia), a restaurant solution (Foodware), and a logistics solution (Trooxer).</dd>
+              <dd class="mt-2 ml-16 text-base text-gray-500" id="netwardesc">Worked on various cloud-based solutions for different businesses such as a POS (Appministra), an accountability solution (Acontia), a restaurant solution (Foodware), and a logistics solution (Trooxer).</dd>
             </div>
 
           </dl>
@@ -1025,15 +1033,17 @@
         <div class="lg:text-center">
           <h2
             class="text-base text-gray-600 font-semibold tracking-wide uppercase"
+            id="educationtitle"
           >
             Education
           </h2>
           <p
             class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-4xl"
+            id="educationsub"
           >
             Get to know where I've studied.
           </p>
-          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto" id="educationdesc">
             I've been studying computer programming for 7+ years, I'm currently an active student always striving to learn more.
           </p>
         </div>
@@ -1129,14 +1139,14 @@
                 <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
                   Universidad de Guadalajara - Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI)
                 </p>
-                <p class="ml-16 text-lg font-medium text-gray-500">
+                <p class="ml-16 text-lg font-medium text-gray-500" id="cuceisub">
                   Bachelor in computer engineering
                 </p>
                 <p class="ml-16 text-lg leading-6 font-medium text-gray-600">
                   2019-Present
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">Currently on 7th semester out of 8.</dd>
+              <dd class="mt-2 ml-16 text-base text-gray-500" id="cuceidesc">Currently in 7th semester out of 8.</dd>
             </div>
 
             <div class="relative">
@@ -1225,14 +1235,14 @@
                 <p class="ml-16 text-lg leading-6 font-medium text-gray-400">
                   Escuela Politécnica de Guadalajara
                 </p>
-                <p class="ml-16 text-lg font-medium text-gray-500">
+                <p class="ml-16 text-lg font-medium text-gray-500" id="polisub">
                   Professional Technologist in Computer Systems
                 </p>
                 <p class="ml-16 text-lg leading-6 font-medium text-gray-600">
                   2015-2019
                 </p>
               </dt>
-              <dd class="mt-2 ml-16 text-base text-gray-500">Graduated with excellence.</dd>
+              <dd class="mt-2 ml-16 text-base text-gray-500" id="polidesc">Graduated with excellence.</dd>
             </div>
 
           </dl>
@@ -1246,16 +1256,18 @@
         class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8"
       ><div class="lg:text-center">
         <h2
+        id="projectstitle"
           class="text-base text-gray-600 font-semibold tracking-wide uppercase"
         >
           Projects
         </h2>
         <p
           class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-500 sm:text-4xl"
+          id="projectssub"
         >
           Get to know what projects I've worked in.
         </p>
-        <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+        <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto" id="projectsdesc">
           Some of the projects I've worked in, some of them by myself, others in teams, but all of them were made with determination.
         </p>
       </div>
@@ -1822,7 +1834,6 @@
 
     <!-- PROJECTS -->
     <!-- CONTACT -->
-    <!-- This example requires Tailwind CSS v2.0+ -->
     <div class="bg-neutral-900" id="contact">
       <div
         class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
@@ -1830,7 +1841,7 @@
         <h2
           class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
         >
-          <span class="block text-gray-400">Contact me.</span>
+          <span class="block text-gray-400" id="contactfooter">Contact me.</span>
         </h2>
         <div class="mt-8 md:grid md:grid-cols-3 md:gap-x-20 md:gap-y-10">
          <div class="relative">
@@ -1896,5 +1907,6 @@
     </div>
 
     <!-- CONTACT -->
+    <script src="index.js"></script>
   </body>
 </html>
