@@ -33,9 +33,9 @@ en = {
   skillstxt: "Skills",
   experiencetxt: "Experience",
   projectstxt: "Projects",
-  title: "Junior Developer, Student",
+  title: "Developer, Student",
   intro:
-    "I'm a Mexican 🇲🇽 23-year-old junior full-stack software developer and a computer engineering student with 3+ years of professional experience in web and mobile development.",
+    "I'm a Mexican 🇲🇽 23-year-old full-stack software developer and a computer engineering student with 3+ years of professional experience in web and mobile development.",
   knowme: "Get to know me! 👇",
   contactbtn: "Contact me",
   skillstitle: "Skills",
@@ -72,7 +72,7 @@ es = {
   skillstxt: "Habilidades",
   experiencetxt: "Experiencia",
   projectstxt: "Proyectos",
-  title: "Desarrollador Junior, Estudiante",
+  title: "Desarrollador, Estudiante",
   intro:
     "Soy un desarrollador de software full-stack, estudiante de ingeniería en computación Mexicano 🇲🇽 de 23 años, con +3 años de experiencia profesional en desarrollo web y móvil",
   knowme: "¡Conóceme! 👇",
@@ -111,9 +111,9 @@ fr = {
   skillstxt: "Compétences",
   experiencetxt: "Expérience",
   projectstxt: "Projets",
-  title: "Développeur Junior, Étudiant",
+  title: "Développeur, Étudiant",
   intro:
-    "Je suis un Mexicain 🇲🇽 de 23 ans, développeur full-stack junior de software et un étudiant en génie informatique avec plus de 3 ans d'expérience professionnelle dans le développement web et mobile.",
+    "Je suis un Mexicain 🇲🇽 de 23 ans, développeur full-stack de software et un étudiant en génie informatique avec plus de 3 ans d'expérience professionnelle dans le développement web et mobile.",
   knowme: "Connais moi! 👇",
   contactbtn: "Contactez moi",
   skillstitle: "Compétences",
