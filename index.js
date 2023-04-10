@@ -174,3 +174,9 @@ function closemenu() {
 
 english();
 closemenu();
+
+//All links open in new tabs
+var links = document.links;
+for (var i = 0; i < links.length; i++) {
+     links[i].target = "_blank";
+}
