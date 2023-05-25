@@ -33,9 +33,9 @@ en = {
   skillstxt: "Skills",
   experiencetxt: "Experience",
   projectstxt: "Projects",
-  title: "Developer, Student",
+  title: "Software Engineer",
   intro:
-    "I'm a Mexican 🇲🇽 23-year-old full-stack software developer and a computer engineering student with 3+ years of professional experience in web and mobile development.",
+    "I'm a Mexican 🇲🇽 23-year-old software engineer with 3+ years of professional experience in web and mobile development.",
   knowme: "Get to know me! 👇",
   contactbtn: "Contact me",
   skillstitle: "Skills",
@@ -47,7 +47,7 @@ en = {
   experiencedesc:
     "I've been part of some different big and small teams where I've learned a lot of new things.",
   ramendesc:
-    "I started a team of students and freelancers to create miscellaneous solutions for different clients around the world and to help them kickstart their projects and ideas.",
+    "I started a team of students and professionals to create miscellaneous solutions for different clients around the world and to help them kickstart their projects and ideas.",
   twindesc:
     "I developed e-commerce solutions for clients of different fields using WordPress and Woocommerce, I also took part in the development of Android and iOS Apps using Flutter.",
   sunaedesc:
@@ -57,9 +57,9 @@ en = {
   educationtitle: "Education",
   educationsub: "Get to know where I've studied.",
   educationdesc:
-    "I've been studying computer programming for 7+ years, I'm currently an active student always striving to learn more.",
+    "I've been studying computer programming for 8+ years, I'm always striving to learn more.",
   cuceisub: "Bachelor in computer engineering",
-  cuceidesc: "Currently in 7th semester out of 8.",
+  cuceidesc: "Graduated with excellence.",
   polisub: "Professional Technologist in Computer Systems",
   polidesc: "Graduated with excellence.",
   projectstitle: "Projects",
@@ -74,7 +74,7 @@ es = {
   projectstxt: "Proyectos",
   title: "Desarrollador, Estudiante",
   intro:
-    "Soy un desarrollador de software full-stack, estudiante de ingeniería en computación Mexicano 🇲🇽 de 23 años, con +3 años de experiencia profesional en desarrollo web y móvil",
+    "Soy un ingeniero de software Mexicano 🇲🇽 de 23 años, con +3 años de experiencia profesional en desarrollo web y móvil",
   knowme: "¡Conóceme! 👇",
   contactbtn: "Contactame",
   skillstitle: "Habilidades",
@@ -86,7 +86,7 @@ es = {
   experiencedesc:
     "He sido parte de distintos equipos chicos y grandes, donde he aprendido muchas cosas.",
   ramendesc:
-    "Comencé un equipo de estudiantes y freelancers para crear soluciones diversas para diferentes clientes al rededor del mundo y ayudarles a iniciar sus proyectos e ideas",
+    "Comencé un equipo de estudiantes y profesionales para crear soluciones diversas para diferentes clientes al rededor del mundo y ayudarles a iniciar sus proyectos e ideas",
   twindesc:
     "Desarrollé soluciones e-commerce para clientes de distintos campos usando WordPress y Woocommerce, también desarrollé aplicaciones de Android e iOS usando Flutter",
   sunaedesc:
@@ -96,9 +96,9 @@ es = {
   educationtitle: "Educación",
   educationsub: "Conocé donde he estudiado.",
   educationdesc:
-    "He estudiado programación por +7 años, actualmente soy un estudiante activo siempre esperando aprender más.",
+    "He estudiado programación por 8+ años, siempre esperando aprender más.",
   cuceisub: "Licenciatura en Ingeniería en Computación",
-  cuceidesc: "Actualmente en 7mo semestre de 8.",
+  cuceidesc: "Titulado por excelencia.",
   polisub: "Tecnólogo Profesional en Sistemas Informáticos",
   polidesc: "Titulado por excelencia",
   projectstitle: "Proyectos",
@@ -113,7 +113,7 @@ fr = {
   projectstxt: "Projets",
   title: "Développeur, Étudiant",
   intro:
-    "Je suis un Mexicain 🇲🇽 de 23 ans, développeur full-stack de software et un étudiant en génie informatique avec plus de 3 ans d'expérience professionnelle dans le développement web et mobile.",
+    "Je suis un Mexicain 🇲🇽 de 23 ans, ingénieur logiciel avec plus de 3 ans d'expérience professionnelle dans le développement web et mobile.",
   knowme: "Connais moi! 👇",
   contactbtn: "Contactez moi",
   skillstitle: "Compétences",
@@ -125,7 +125,7 @@ fr = {
   experiencedesc:
     "J'ai fait partie de différentes grandes et petites équipes où j'ai appris beaucoup de nouvelles choses.",
   ramendesc:
-    "J'ai créé une équipe d'étudiants et de pigistes pour créer diverses solutions pour différents clients à travers le monde et pour les aider à lancer leurs projets et leurs idées.",
+    "J'ai créé une équipe d'étudiants et professionnels pour créer diverses solutions pour différents clients à travers le monde et pour les aider à lancer leurs projets et leurs idées.",
   twindesc:
     "J'ai développé des solutions de commerce électronique pour des clients de différents domaines en utilisant WordPress et Woocommerce, j'ai également participé au développement d'applications Android et iOS en utilisant Flutter.",
   sunaedesc:
@@ -135,9 +135,9 @@ fr = {
   educationtitle: "Éducation",
   educationsub: "Savoir où j'ai étudié",
   educationdesc:
-    "J'étudie la programmation informatique depuis plus de 7 ans, je suis actuellement un étudiant actif qui cherche toujours à en savoir plus.",
+    "J'étudie la programmation informatique depuis plus de 8 ans, je cherche toujours à en savoir plus.",
   cuceisub: "Baccalauréat en génie informatique",
-  cuceidesc: "Actuellement en 7ème semestre sur 8.",
+  cuceidesc: "Diplômé avec excellence.",
   polisub: "Technologue professionnel en systèmes informatiques",
   polidesc: "Diplômé avec excellence.",
   projectstitle: "Projets",
