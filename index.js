@@ -72,7 +72,7 @@ es = {
   skillstxt: "Habilidades",
   experiencetxt: "Experiencia",
   projectstxt: "Proyectos",
-  title: "Desarrollador, Estudiante",
+  title: "Ingeniero de software",
   intro:
     "Soy un ingeniero de software Mexicano 🇲🇽 de 23 años, con +3 años de experiencia profesional en desarrollo web y móvil",
   knowme: "¡Conóceme! 👇",
@@ -111,7 +111,7 @@ fr = {
   skillstxt: "Compétences",
   experiencetxt: "Expérience",
   projectstxt: "Projets",
-  title: "Développeur, Étudiant",
+  title: "Ingénieur logiciel",
   intro:
     "Je suis un Mexicain 🇲🇽 de 23 ans, ingénieur logiciel avec plus de 3 ans d'expérience professionnelle dans le développement web et mobile.",
   knowme: "Connais moi! 👇",
