@@ -46,6 +46,8 @@ en = {
   experiencesub: "Get to know where I've worked.",
   experiencedesc:
     "I've been part of some different big and small teams where I've learned a lot of new things.",
+  ibmdesc:
+    "I started working at IBM as a Back End Developer in Guadalajara after graduating from university.",
   ramendesc:
     "I started a team of students and professionals to create miscellaneous solutions for different clients around the world and to help them kickstart their projects and ideas.",
   twindesc:
@@ -85,6 +87,8 @@ es = {
   experiencesub: "Conoce dónde he trabajado",
   experiencedesc:
     "He sido parte de distintos equipos chicos y grandes, donde he aprendido muchas cosas.",
+  ibmdesc:
+    "Comencé a trabajar en IBM como Back End Developer en Guadalajara despues de egresar de la universidad.",
   ramendesc:
     "Comencé un equipo de estudiantes y profesionales para crear soluciones diversas para diferentes clientes al rededor del mundo y ayudarles a iniciar sus proyectos e ideas",
   twindesc:
@@ -124,6 +128,8 @@ fr = {
   experiencesub: "Découvrez où j'ai travaillé.",
   experiencedesc:
     "J'ai fait partie de différentes grandes et petites équipes où j'ai appris beaucoup de nouvelles choses.",
+  ibmdesc:
+    "J'ai commencé à travailler chez IBM en tant que développeur back-end à Guadalajara après avoir obtenu mon diplôme universitaire.",
   ramendesc:
     "J'ai créé une équipe d'étudiants et professionnels pour créer diverses solutions pour différents clients à travers le monde et pour les aider à lancer leurs projets et leurs idées.",
   twindesc:
