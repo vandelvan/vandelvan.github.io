@@ -35,7 +35,7 @@ en = {
   projectstxt: "Projects",
   title: "Software Engineer",
   intro:
-    "I'm a Mexican 🇲🇽 23-year-old software engineer with 3+ years of professional experience in web and mobile development.",
+    "I'm a Mexican 🇲🇽 25-year-old software engineer with 4+ years of professional experience as a Full-stack developer.",
   knowme: "Get to know me! 👇",
   contactbtn: "Contact me",
   skillstitle: "Skills",
@@ -76,7 +76,7 @@ es = {
   projectstxt: "Proyectos",
   title: "Ingeniero de software",
   intro:
-    "Soy un ingeniero de software Mexicano 🇲🇽 de 23 años, con +3 años de experiencia profesional en desarrollo web y móvil",
+    "Soy un ingeniero de software Mexicano 🇲🇽 de 25 años, con +4 años de experiencia profesional como desarrollador Full-stack",
   knowme: "¡Conóceme! 👇",
   contactbtn: "Contactame",
   skillstitle: "Habilidades",
@@ -117,7 +117,7 @@ fr = {
   projectstxt: "Projets",
   title: "Ingénieur logiciel",
   intro:
-    "Je suis un Mexicain 🇲🇽 de 23 ans, ingénieur logiciel avec plus de 3 ans d'expérience professionnelle dans le développement web et mobile.",
+    "Je suis un Mexicain 🇲🇽 de 25 ans, ingénieur logiciel avec plus de 4 ans d'expérience professionnelle comme développeur Full-stack.",
   knowme: "Connais moi! 👇",
   contactbtn: "Contactez moi",
   skillstitle: "Compétences",
